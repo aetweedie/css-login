@@ -1,0 +1,57 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+form {
+  font-family: sans-serif;
+}
+
+.email, .password {
+  display: inline-block;
+  border-radius: 5px;
+  height: 20%;
+  padding: 15px;
+  border: 2px solid darkgrey;
+  color: grey;
+  font-size: 16px;
+  margin-left: 10px;
+
+}
+
+.signin, .register {
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  margin-left: 10px;
+}
+
+.signin {
+  background: rgba(45, 141, 229, 1)
+}
+
+.register {
+  background: rgba(182, 194, 201, 1)
+}
+
+.remember {
+  margin-left: 10px;
+}
+
+
+::-webkit-input-placeholder {
+   color: rgba(225, 225, 225, 0.7);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: rgba(225, 225, 225, 0.7);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(225, 225, 225, 0.7);
+}
+
+:-ms-input-placeholder {
+   color: rgba(225, 225, 225, 0.7);
+}
